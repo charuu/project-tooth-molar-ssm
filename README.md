@@ -7,7 +7,6 @@ IN: arXiv preprint (2019)
 
 Markov Chain Monte Carlo for shape registration with examples using [Scalismo](https://github.com/unibas-gravis/scalismo).
 
-
 ## Overview
 
 
@@ -60,7 +59,6 @@ As with the femur, the face registration can be replayed and the posterior can b
 
 
 ## Tooth experiments
-=======
 # Tooth-molar-ssm
 Tooth-molar-ssm/main/scala/api/sampling/MixedProposalDistributions.scala
 Tooth-molar-ssm/main/scala/api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
