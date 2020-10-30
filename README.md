@@ -59,6 +59,7 @@ As with the femur, the face registration can be replayed and the posterior can b
 
 
 ## Tooth experiments
+Creation of model using CBCT data
  //load full samples data
  //align meshes
  //registeration
@@ -67,6 +68,7 @@ As with the femur, the face registration can be replayed and the posterior can b
  //--grad opt
  //--mcmc
  //build pca model
+ Augmenting SSM model with partial data from laser scans
  //Augment pca model
  apps/teeth/definition/changepointKernelForPartialMesh.scala
  apps/teeth/definition/changepointKernel.scala
