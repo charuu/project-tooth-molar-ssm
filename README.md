@@ -69,7 +69,7 @@ Creation of model using CBCT data
  
  3. Registeration
  
-    apps/teeth/registeration/
+        apps/teeth/registeration/
  
  - non rigid icp
  - grad opt
