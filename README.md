@@ -75,7 +75,7 @@ Creation of model using CBCT data
  - grad opt
  - mcmc
  
- 4. Build pca model
+ 4. Build SSM model from CBCT data
  
  Augmenting SSM model with partial data from laser scans
  
@@ -93,4 +93,4 @@ Creation of model using CBCT data
  
  - ICP proposal in MCMC
  
- 3. Creation of SSM Model
+ 3. Creation of SSM Model from CBCT and laser scan data
