@@ -89,7 +89,7 @@ Creation of model using CBCT data
          api/sampling/MixedProposalDistributions.scala
          apps/teeth/registeration/
  
- - Non rigid ICP
+ - Non rigid ICP proposal
  
  - ICP proposal for MCMC
  
