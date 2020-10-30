@@ -60,6 +60,7 @@ As with the femur, the face registration can be replayed and the posterior can b
 
 ## Tooth experiments
 Creation of model using CBCT data
+
  1.Load full samples data
  
  2.Align meshes
@@ -73,13 +74,18 @@ Creation of model using CBCT data
  4.Build pca model
  
  Augmenting SSM model with partial data from laser scans
+ 
  apps/teeth/definition/changepointKernelForPartialMesh.scala
  apps/teeth/definition/changepointKernel.scala
+ 
  1. Load partial data
  2. Partial data registeration
+ 
  api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
  api/sampling/MixedProposalDistributions.scala
  apps/teeth/registeration/
- -non rigid icp
- - icp proposal mcmc
+ 
+ -Non rigid ICP
+ -ICP proposal in MCMC
+ 
  3. Creation of SSM Model
