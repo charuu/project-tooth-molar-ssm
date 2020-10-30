@@ -66,7 +66,9 @@ Creation of model using CBCT data
  2.Align meshes
  
  3.Registeration
- apps/teeth/registeration/
+ 
+    apps/teeth/registeration/
+ 
  - non rigid icp
  - grad opt
  - mcmc
@@ -75,15 +77,15 @@ Creation of model using CBCT data
  
  Augmenting SSM model with partial data from laser scans
  
- apps/teeth/definition/changepointKernelForPartialMesh.scala
- apps/teeth/definition/changepointKernel.scala
+    apps/teeth/definition/changepointKernelForPartialMesh.scala
+    apps/teeth/definition/changepointKernel.scala
  
  1. Load partial data
  2. Partial data registeration
  
- api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
- api/sampling/MixedProposalDistributions.scala
- apps/teeth/registeration/
+    api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
+    api/sampling/MixedProposalDistributions.scala
+    apps/teeth/registeration/
  
  -Non rigid ICP
  -ICP proposal in MCMC
