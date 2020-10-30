@@ -83,9 +83,9 @@ Creation of model using CBCT data
  1. Load partial data
  2. Partial data registeration
  
-    api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
-    api/sampling/MixedProposalDistributions.scala
-    apps/teeth/registeration/
+         api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
+         api/sampling/MixedProposalDistributions.scala
+         apps/teeth/registeration/
  
  -Non rigid ICP
  -ICP proposal in MCMC
