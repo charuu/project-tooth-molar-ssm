@@ -1,7 +1,7 @@
 
 # A Closest Point Proposal for MCMC-based Probabilistic Surface Registration
 
-This repository contains all the code to reproduce our results from our recent publication:
+This repository contains all the code to reproduce our results from recent publication:
 - Dennis Madsen, Andreas Morel-Forster, Patrick Kahr, Dana Rahbani, Thomas Vetter and Marcel Lüthi ["A Closest Point Proposal for MCMC-based Probabilistic Surface Registration"](https://arxiv.org/abs/1907.01414) 
 IN: arXiv preprint (2019)
 
@@ -57,7 +57,7 @@ The test face scans are available here: <https://faces.dmi.unibas.ch/bfm/main.ph
 To run the face registration, run the script: **apps/bfm/BfmFitting**.
 As with the femur, the face registration can be replayed and the posterior can be visualised with the similar scripts found under **apps/bfm/**.
 
-
+This segment of the project is not included in the open source repository since the model created contained folds,hence was not smooth when sampled at different possible variance, using metroplis hastings algorithm. A new method is being worked on to create a model instead since this did not work out.
 ## Tooth experiments
 Creation of model using CBCT data
 
