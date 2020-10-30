@@ -71,9 +71,9 @@ Creation of model using CBCT data
  
         apps/teeth/registeration/
  
- - non rigid icp
- - grad opt
- - mcmc
+ - Non Rigid ICP proposal
+ - Gradient based optimization
+ - ICP proposal for MCMC
  
  4. Build SSM model from CBCT data
  
@@ -91,6 +91,6 @@ Creation of model using CBCT data
  
  - Non rigid ICP
  
- - ICP proposal in MCMC
+ - ICP proposal for MCMC
  
  3. Creation of SSM Model from CBCT and laser scan data
