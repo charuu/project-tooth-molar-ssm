@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="ch.unibas.cs.gravis"
+		module="molar-tooth$sources"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200824131709"/>
+	<dependencies>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131012011624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7539" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86855" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/srcs/netlib-native_ref-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131012011458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7537" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-i686" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86855" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/srcs/netlib-native_ref-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012012927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7981" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89748" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/srcs/netlib-native_system-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.9.0" status="release" pubdate="20180411115603" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3355" time="0" location="/home/jain0000/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/ivy-3.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11299" time="0" location="/home/jain0000/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131012013120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7979" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86987" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/srcs/netlib-native_system-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012004207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7552" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86986" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/srcs/netlib-native_system-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331212753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/home/jain0000/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="230201" time="0" location="/home/jain0000/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/jain0000/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/jain0000/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331212715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/home/jain0000/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="399141" time="0" location="/home/jain0000/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686">
+			<revision name="1.1" status="release" pubdate="20131012004118" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7548" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-i686" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86986" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/srcs/netlib-native_system-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131012013027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7977" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-i686" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86987" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/srcs/netlib-native_system-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012003904" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7112" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86854" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/srcs/netlib-native_ref-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012011310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7541" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86855" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/srcs/netlib-native_ref-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012003537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7118" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89373" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/srcs/netlib-native_ref-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686">
+			<revision name="1.1" status="release" pubdate="20131012003716" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7108" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-i686" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86854" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/srcs/netlib-native_ref-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_ref-java">
+			<revision name="1.1" status="release" pubdate="20131012003421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7257" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_ref-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28183" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/native_ref-java/srcs/native_ref-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131012004035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7558" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86986" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/srcs/netlib-native_system-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_system-java">
+			<revision name="1.1" status="release" pubdate="20131012003956" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7694" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_system-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28200" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/native_system-java/srcs/native_system-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil" name="jniloader">
+			<revision name="1.1" status="release" pubdate="20131011223947" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/fommil/jniloader" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3319" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil/jniloader/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jniloader" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4441" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil/jniloader/srcs/jniloader-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.unibas.cs.gravis" name="scalismo-ui_2.12">
+			<revision name="0.14.0" status="release" pubdate="20200306210012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="GPL-3.0" url="http://opensource.org/licenses/gpl-3.0"/>
+				<license name="GPL-3.0" url="http://www.gnu.org/licenses/gpl-3.0.en.html"/>
+				<metadata-artifact status="no" details="" size="4046" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-ui_2.12/ivy-0.14.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-ui_2.12/0.14.0/scalismo-ui_2.12-0.14.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.14.0" rev-constraint-default="0.14.0" rev-constraint-dynamic="0.14.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalismo-ui_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2325564" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-ui_2.12/srcs/scalismo-ui_2.12-0.14.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-ui_2.12/0.14.0/scalismo-ui_2.12-0.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ghik" name="silencer-lib">
+			<revision name="0.4" status="release" pubdate="20160310105922" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ghik/silencer" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2722" time="0" location="/home/jain0000/.ivy2/cache/com.github.ghik/silencer-lib/ivy-0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ghik/silencer-lib/0.4/silencer-lib-0.4.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="silencer-lib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1085" time="0" location="/home/jain0000/.ivy2/cache/com.github.ghik/silencer-lib/srcs/silencer-lib-0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ghik/silencer-lib/0.4/silencer-lib-0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jiconfont" name="jiconfont-entypo">
+			<revision name="2.0.2" status="release" pubdate="20160220163827" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jIconFont/jiconfont-entypo" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3027" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-entypo/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-entypo/2.0.2/jiconfont-entypo-2.0.2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jiconfont-entypo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48700" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-entypo/srcs/jiconfont-entypo-2.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-entypo/2.0.2/jiconfont-entypo-2.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jiconfont" name="jiconfont-elusive">
+			<revision name="2.0.2" status="release" pubdate="20160220163016" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jIconFont/jiconfont-iconic" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3030" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-elusive/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-elusive/2.0.2/jiconfont-elusive-2.0.2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jiconfont-elusive" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40878" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-elusive/srcs/jiconfont-elusive-2.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-elusive/2.0.2/jiconfont-elusive-2.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jiconfont" name="jiconfont-font_awesome">
+			<revision name="4.5.0.3" status="release" pubdate="20160222194039" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jIconFont/jiconfont-font_awesome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3062" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-font_awesome/ivy-4.5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-font_awesome/4.5.0.3/jiconfont-font_awesome-4.5.0.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="4.5.0.3" rev-constraint-default="4.5.0.3" rev-constraint-dynamic="4.5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jiconfont-font_awesome" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89915" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-font_awesome/srcs/jiconfont-font_awesome-4.5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-font_awesome/4.5.0.3/jiconfont-font_awesome-4.5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jiconfont" name="jiconfont-swing">
+			<revision name="1.0.1" status="release" pubdate="20160220162335" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jIconFont/jiconfont-swing" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-swing/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-swing/1.0.1/jiconfont-swing-1.0.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jiconfont-swing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2396" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont-swing/srcs/jiconfont-swing-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont-swing/1.0.1/jiconfont-swing-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jiconfont" name="jiconfont">
+			<revision name="1.0.0" status="release" pubdate="20160220161107" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jIconFont/jiconfont" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2955" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont/1.0.0/jiconfont-1.0.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jiconfont" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3340" time="0" location="/home/jain0000/.ivy2/cache/com.github.jiconfont/jiconfont/srcs/jiconfont-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jiconfont/jiconfont/1.0.0/jiconfont-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.sciss" name="swingplus_2.12">
+			<revision name="0.2.2" status="release" pubdate="20161228152843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Sciss/SwingPlus" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="LGPL v2.1+" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2862" time="0" location="/home/jain0000/.ivy2/cache/de.sciss/swingplus_2.12/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/sciss/swingplus_2.12/0.2.2/swingplus_2.12-0.2.2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="swingplus_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31309" time="0" location="/home/jain0000/.ivy2/cache/de.sciss/swingplus_2.12/srcs/swingplus_2.12-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/sciss/swingplus_2.12/0.2.2/swingplus_2.12-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-swing_2.12">
+			<revision name="2.0.0-M2" status="release" pubdate="20161029011126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/ivy-2.0.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.0-M2/scala-swing_2.12-2.0.0-M2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.0.0-M2" rev-constraint-default="2.0.0-M2" rev-constraint-dynamic="2.0.0-M2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-swing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="80955" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/srcs/scala-swing_2.12-2.0.0-M2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.0-M2/scala-swing_2.12-2.0.0-M2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.unibas.cs.gravis" name="scalismo_2.12">
+			<revision name="0.18.0" status="release" pubdate="20200306174714" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo_2.12/ivy-0.18.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo_2.12/0.18.0/scalismo_2.12-0.18.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.18.0" rev-constraint-default="0.18.0" rev-constraint-dynamic="0.18.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalismo_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="291017" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo_2.12/srcs/scalismo_2.12-0.18.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo_2.12/0.18.0/scalismo_2.12-0.18.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.unibas.cs.gravis" name="scalismo-native-all">
+			<revision name="4.0.0" status="release" pubdate="20170313205641" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="2719" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-native-all/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-native-all/4.0.0/scalismo-native-all-4.0.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalismo-native-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40388" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-native-all/srcs/scalismo-native-all-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-native-all/4.0.0/scalismo-native-all-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.unibas.cs.gravis" name="scalismo-native-stub">
+			<revision name="4.0.0" status="release" pubdate="20170117152431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-native-stub/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-native-stub/4.0.0/scalismo-native-stub-4.0.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalismo-native-stub" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5357120" time="0" location="/home/jain0000/.ivy2/cache/ch.unibas.cs.gravis/scalismo-native-stub/srcs/scalismo-native-stub-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/unibas-gravis/maven/ch/unibas/cs/gravis/scalismo-native-stub/4.0.0/scalismo-native-stub-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.12">
+			<revision name="1.3.3" status="release" pubdate="20161229110833" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/jain0000/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.3/spray-json_2.12-1.3.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22956" time="0" location="/home/jain0000/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.3/spray-json_2.12-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.12">
+			<revision name="1.0" status="release" pubdate="20190812014303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3256" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze-natives_2.12/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/1.0/breeze-natives_2.12-1.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="248" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze-natives_2.12/srcs/breeze-natives_2.12-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/1.0/breeze-natives_2.12-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.12">
+			<revision name="1.0" status="release" pubdate="20190812014533" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4895" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze_2.12/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.12/1.0/breeze_2.12-1.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="538044" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.12/1.0/breeze_2.12-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-collection-compat_2.12">
+			<revision name="2.1.1" status="release" pubdate="20190625112832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.1/scala-collection-compat_2.12-2.1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-collection-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8051" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/srcs/scala-collection-compat_2.12-2.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.1/scala-collection-compat_2.12-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="spire_2.12">
+			<revision name="0.17.0-M1" status="release" pubdate="20190616102427" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/spire/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3523" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire_2.12/ivy-0.17.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/spire_2.12/0.17.0-M1/spire_2.12-0.17.0-M1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.17.0-M1" rev-constraint-default="0.17.0-M1" rev-constraint-dynamic="0.17.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="252996" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire_2.12/srcs/spire_2.12-0.17.0-M1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/spire_2.12/0.17.0-M1/spire_2.12-0.17.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="spire-platform_2.12">
+			<revision name="0.17.0-M1" status="release" pubdate="20190616102220" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/spire/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3390" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-platform_2.12/ivy-0.17.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/spire-platform_2.12/0.17.0-M1/spire-platform_2.12-0.17.0-M1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.17.0-M1" rev-constraint-default="0.17.0-M1" rev-constraint-dynamic="0.17.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire-platform_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1472" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-platform_2.12/srcs/spire-platform_2.12-0.17.0-M1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/spire-platform_2.12/0.17.0-M1/spire-platform_2.12-0.17.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="spire-util_2.12">
+			<revision name="0.17.0-M1" status="release" pubdate="20190616102213" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/spire/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3227" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-util_2.12/ivy-0.17.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/spire-util_2.12/0.17.0-M1/spire-util_2.12-0.17.0-M1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.17.0-M1" rev-constraint-default="0.17.0-M1" rev-constraint-dynamic="0.17.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire-util_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3756" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-util_2.12/srcs/spire-util_2.12-0.17.0-M1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/spire-util_2.12/0.17.0-M1/spire-util_2.12-0.17.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="spire-macros_2.12">
+			<revision name="0.17.0-M1" status="release" pubdate="20190616102150" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/spire/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3605" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-macros_2.12/ivy-0.17.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/spire-macros_2.12/0.17.0-M1/spire-macros_2.12-0.17.0-M1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.17.0-M1" rev-constraint-default="0.17.0-M1" rev-constraint-dynamic="0.17.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6394" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/spire-macros_2.12/srcs/spire-macros_2.12-0.17.0-M1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/spire-macros_2.12/0.17.0-M1/spire-macros_2.12-0.17.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="algebra_2.12">
+			<revision name="2.0.0-M2" status="release" pubdate="20190615164955" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://typelevel.org/algebra" extra-info.apiURL="https://typelevel.org/algebra/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/algebra_2.12/ivy-2.0.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0-M2/algebra_2.12-2.0.0-M2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.0.0-M2" rev-constraint-default="2.0.0-M2" rev-constraint-dynamic="2.0.0-M2" callerrev="0.1" extra-info.apiURL="https://typelevel.org/algebra/api/"/>
+				<artifacts>
+					<artifact name="algebra_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32331" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/algebra_2.12/srcs/algebra_2.12-2.0.0-M2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0-M2/algebra_2.12-2.0.0-M2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="2.0.0-M4" status="release" pubdate="20190611173929" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2906" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-2.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.0.0-M4/cats-kernel_2.12-2.0.0-M4.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.0.0-M4" rev-constraint-default="2.0.0-M4" rev-constraint-dynamic="2.0.0-M4" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56537" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-2.0.0-M4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.0.0-M4/cats-kernel_2.12-2.0.0-M4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.12">
+			<revision name="0.6.8" status="release" pubdate="20190524083308" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.8/machinist_2.12-0.6.8.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="machinist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/machinist_2.12/srcs/machinist_2.12-0.6.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.8/machinist_2.12-0.6.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231155153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3230" time="0" location="/home/jain0000/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172402" time="0" location="/home/jain0000/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102094258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/home/jain0000/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402213128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9676" time="0" location="/home/jain0000/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2005074" time="0" location="/home/jain0000/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.wendykierp" name="JTransforms">
+			<revision name="3.1" status="release" pubdate="20150908124553" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/wendykierp/JTransforms" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="BSD 2-Clause" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="3722" time="0" location="/home/jain0000/.ivy2/cache/com.github.wendykierp/JTransforms/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/wendykierp/JTransforms/3.1/JTransforms-3.1.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="JTransforms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="269350" time="0" location="/home/jain0000/.ivy2/cache/com.github.wendykierp/JTransforms/srcs/JTransforms-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/wendykierp/JTransforms/3.1/JTransforms-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="pl.edu.icm" name="JLargeArrays">
+			<revision name="1.5" status="release" pubdate="20150907142701" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://gitlab.com/ICM-VisLab/JLargeArrays" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 2-Clause" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="3272" time="0" location="/home/jain0000/.ivy2/cache/pl.edu.icm/JLargeArrays/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/pl/edu/icm/JLargeArrays/1.5/JLargeArrays-1.5.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="JLargeArrays" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76637" time="0" location="/home/jain0000/.ivy2/cache/pl.edu.icm/JLargeArrays/srcs/JLargeArrays-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/pl/edu/icm/JLargeArrays/1.5/JLargeArrays-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728070018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/home/jain0000/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17058" time="0" location="/home/jain0000/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126125411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="4893" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="679224" time="0" location="/home/jain0000/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.12">
+			<revision name="1.0" status="release" pubdate="20190812014328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3044" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze-macros_2.12/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.12/1.0/breeze-macros_2.12-1.0.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9200" time="0" location="/home/jain0000/.ivy2/cache/org.scalanlp/breeze-macros_2.12/srcs/breeze-macros_2.12-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.12/1.0/breeze-macros_2.12-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.8" status="release" pubdate="20181204111524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2828" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="615375" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204111556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="ch.unibas.cs.gravis" name="molar-tooth$sources" conf="test, compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1020924" time="0" location="/home/jain0000/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

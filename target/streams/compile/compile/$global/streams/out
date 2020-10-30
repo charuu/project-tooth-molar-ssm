@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jain0000/IdeaProjects/msc_project-tooth-molar-ssm/src/main/scala/api/sampling/MixedProposalDistributions.scala:65:109: missing argument list for method + in class MixtureBuilderTrans[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.[0m
+[0m[[0m[31merror[0m] [0m[0m        0.5 *: mixedPartialProposalICP(model, target, numOfSamplePoints, projectionDirection  ,0.1,0.1,0.1) +[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
