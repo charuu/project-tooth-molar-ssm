@@ -8,7 +8,42 @@ IN: arXiv preprint (2019)
 Markov Chain Monte Carlo for shape registration with examples using [Scalismo](https://github.com/unibas-gravis/scalismo).
 
 ## Overview
+## Tooth experiments
+Data avaialble for this experiment was supplied by Prof Albert Mehl(University of Zurich) and is confidential.
 
+Creation of model using CBCT data
+
+ 1. Load full samples data
+ 
+ 2. Align meshes
+ 
+ 3. Registeration
+ 
+        apps/teeth/registeration/
+ 
+ - Non Rigid ICP proposal
+ - Gradient based optimization
+ - ICP proposal for MCMC
+ 
+ 4. Build SSM model from CBCT data
+ 
+ Augmenting SSM model with partial data from laser scans
+ 
+    apps/teeth/definition/changepointKernelForPartialMesh.scala
+    apps/teeth/definition/changepointKernel.scala
+ 
+ 1. Load partial data
+ 2. Partial data registeration
+ 
+         api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
+         api/sampling/MixedProposalDistributions.scala
+         apps/teeth/registeration/
+ 
+ - Non rigid ICP proposal
+ 
+ - ICP proposal for MCMC
+ 
+ 3. Creation of SSM Model from CBCT and laser scan data
 
 ## Femur experiments
 The experiments are found under *apps/femur*. The repository already contains Gaussian Process Morphable Models (GPMMs) of the femur - approximated with 50 and 100 basis functions. 
@@ -58,39 +93,4 @@ To run the face registration, run the script: **apps/bfm/BfmFitting**.
 As with the femur, the face registration can be replayed and the posterior can be visualised with the similar scripts found under **apps/bfm/**.
 
 This segment of the project is not included in the open source repository since the model created contained folds,hence was not smooth when sampled at different possible variance, using metroplis hastings algorithm. A new method is being worked on to create a model instead since this did not work out.
-## Tooth experiments
-Data avaialble for this experiment was supplied by Prof Albert Mehl(University of Zurich) and is confidential.
 
-Creation of model using CBCT data
-
- 1. Load full samples data
- 
- 2. Align meshes
- 
- 3. Registeration
- 
-        apps/teeth/registeration/
- 
- - Non Rigid ICP proposal
- - Gradient based optimization
- - ICP proposal for MCMC
- 
- 4. Build SSM model from CBCT data
- 
- Augmenting SSM model with partial data from laser scans
- 
-    apps/teeth/definition/changepointKernelForPartialMesh.scala
-    apps/teeth/definition/changepointKernel.scala
- 
- 1. Load partial data
- 2. Partial data registeration
- 
-         api/sampling/evaluators/IndependentPointDistanceEvaluator.scala
-         api/sampling/MixedProposalDistributions.scala
-         apps/teeth/registeration/
- 
- - Non rigid ICP proposal
- 
- - ICP proposal for MCMC
- 
- 3. Creation of SSM Model from CBCT and laser scan data
